@@ -1,0 +1,150 @@
+.pagamento {
+    background-image: url("./Imagens/piso.png");
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.pagamento-pai {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.entrega-status {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.entrega {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+
+}
+
+.entrega-image {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.forma-pagemento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.revisao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.numero {
+    border-radius: 50%;
+    margin-right: 8px;
+    background-color: #CCC;
+    padding: 5px 8px 5px 8px;
+}
+
+.image-pagementos {
+    width: 50px;
+}
+
+.borda-pix {
+    border: 2px solid #333;
+    padding: 20px;
+    background-color: #F1F1ED;
+    margin-bottom: 31px;
+    width: 322px;
+    height: 27px;
+    border-radius: 23px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+
+}
+
+.borda-credito {
+    border: 2px solid #333;
+    padding: 20px;
+    background-color: #F1F1ED;
+    margin-bottom: 31px;
+    width: 322px;
+    height: 27px;
+    border-radius: 23px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+
+
+}
+
+.borda-dinheiro {
+    border: 2px solid #333;
+    padding: 20px;
+    background-color: #F1F1ED;
+    margin-bottom: 31px;
+    width: 322px;
+    height: 27px;
+    border-radius: 23px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+
+.borda-debito {
+    border: 2px solid #333;
+    padding: 20px;
+    background-color: #F1F1ED;
+    margin-bottom: 31px;
+    width: 322px;
+    height: 27px;
+    border-radius: 23px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.borda-pix, .borda-credito {
+    order: 1;
+}
+
+.bottom {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+
+}
