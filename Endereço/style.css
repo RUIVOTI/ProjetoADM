@@ -1,0 +1,49 @@
+.borda-lateral {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 533px;
+    height: 296px;
+    background-color: #F1F1ED;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.campos {
+    margin-top: -22px;
+    width: 69%;
+    margin-left: 53px;
+    margin-top: -61px;
+    width: 48%;
+    margin-left: 136px;
+    height: 101%;
+    transform: scale(0.7);
+}
+
+
+.campos label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.campos input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.botao {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.botao button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
