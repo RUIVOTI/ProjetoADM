@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+
+.pai-site {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pai-bordas {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.pagamento {
+    background-image: url("./Imagens/piso.png");
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pagamento-pai {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.entrega-status {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5vh 0 10vh}
+
+.entrega {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+
+}
+
+.entrega-image {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.forma-pagemento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.revisao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.numero {
+    border-radius: 50%;
+    margin-right: 8px;
+    background-color: rgb(185, 182, 170);
+    padding: 5px 8px 5px 8px;
+    align-items: center;
+    width: 9px;
+    height: 14px;
+}
+
+.image-pagementos {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.borda-pix {
+    padding: 20px;
+    background-color: #F1F1ED;
+    margin-bottom: 31px;
+    width: 322px;
+    height: 27px;
+    border-radius: 23px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+
+}
+
+.borda-credito {
+    padding: 20px;
+    background-color: #F1F1ED;
+    margin-bottom: 31px;
+    width: 322px;
+    height: 27px;
+    border-radius: 23px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+
+
+}
+
+.borda-dinheiro {
+    padding: 20px;
+    background-color: #F1F1ED;
+    margin-bottom: 31px;
+    width: 322px;
+    height: 27px;
+    border-radius: 23px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+
+.borda-debito {
+    padding: 20px;
+    background-color: #F1F1ED;
+    margin-bottom: 31px;
+    width: 322px;
+    height: 27px;
+    border-radius: 23px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.borda-pix,
+.borda-credito {
+    order: 1;
+}
+
+.botton {
+    background-color: #8AE254;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    width: 40%;
+}
+
+.text-pix {
+    margin-left: -30px;
+    margin-top: 54px;
+}
+
+.btnAjuda {
+    color: #8AE254;
+    text-align: end;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    color: #0B870F;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+
+}
+
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 9px 9px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .5s;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #0B870F;
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white::after {
+    background-color: #fff;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.container {
+    width: 256px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: flex-end;
+    align-self: center;
+    font-family: 'Lato', sans-serif;
+    margin-top: 15px;
+}
+
+
+
+.btn-continuar {
+    width: 500px;
+    height: 40px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #0e6b35;
+    outline: none;
+    transition: 1s ease-in-out;
+    border-radius: 10px;
+}
+
+svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: rgb(60, 255, 0);
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+    width:inherit;
+    height: inherit ;
+}
+
+.btn-continuar:hover {
+    transition: 1s ease-in-out;
+    background: #8AE254;
+}
+
+.btn-continuar:hover svg {
+    stroke-dashoffset: -480;
+}
+
+.btn-continuar span {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 100;
+}

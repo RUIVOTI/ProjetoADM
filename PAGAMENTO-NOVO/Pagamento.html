@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./Pagamento.css" />
+    <link rel="stylesheet" href="./chatbot.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagamento</title>
+</head>
+
+<body class="pagamento">
+    <div class="pagamento-pai">
+        <div class="entrega-status">
+            <div class="entrega">
+                <img src="./Imagens/correto.png" class="entrega-image">
+                <h4>Entrega</h4>
+            </div>
+
+            <div class="forma-pagemento">
+                <img src="./Imagens/correto.png" class="entrega-image">
+                <h4>Forma de pagamento</h4>
+            </div>
+
+            <div class="revisao">
+                <h4 class="numero">3</h4>
+                <h4>Revisão</h4>
+            </div>
+
+        </div>
+
+        <h1>Qual é a melhor forma de pagamento para você</h1>
+
+        <div class="pai-site">
+            <h4 class="text-pagamento">Adicione forma de pagamento</h4>
+            <div class="pai-bordas">
+                <div class="borda-pix">
+                    <img src="./Imagens/PIX.png" class="image-pagementos">
+                    <h5>PIX</h5>
+                    <h6 class="text-pix">Vence em 40 minutos</h6>
+                </div>
+
+                <div class="borda-credito">
+                    <img src="./Imagens/credito.png" class="image-pagementos">
+                    <h5>CARTÃO DE CRÉDITO</h5>
+                </div>
+
+                <div class="borda-dinheiro">
+                    <img src="./Imagens/dinheiro.png" class="image-pagementos">
+                    <h5>DINHEIRO</h5>
+                </div>
+
+                <div class="borda-debito">
+                    <img src="./Imagens/cartaodebito.png" class="image-pagementos">
+                    <h5>CARTÃO DE DÉBITO</h5>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="center">
+                    <button class="btn-continuar">
+                        <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                            <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                            <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                        </svg>
+                        <span>Continuar</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="btnAjuda">
+            <a href="#" class="btn btn-white btn-animate" id="btnAjuda">Ajuda</a>
+        </div>
+
+        <div class="chatbot-container" id="chatbotContainer">
+            <div class="chatbot-header">
+                <h4>Chat de Ajuda</h4>
+                <button class="close-button" id="closeButton">&times;</button>
+            </div>
+            <div class="chatbot-body" id="chatbotBody"></div>
+            <div class="chatbot-input">
+                <input type="text" id="chatInput" placeholder="Digite sua mensagem">
+                <button id="sendButton">Enviar</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./chatbot.js"></script>
+</body>
+
+</html>
