@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./endereço.css" />
+    <link rel="stylesheet" href="./chatbot.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagamento</title>
+</head>
+
+<body class="endereço">
+    <div class="pagamento-pai">
+        <div class="entrega-status">
+            <div class="entrega">
+                <img src="./componentes/correto.png" class="entrega-image">
+                <h4>Entrega</h4>
+            </div>
+
+            <div class="forma-pagemento">
+                <h4 class="numero">2</h4>
+                <h4>Forma de pagamento</h4>
+            </div>
+
+            <div class="revisao">
+                <h4 class="numero">3</h4>
+                <h4>Revisão</h4>
+            </div>
+
+        </div>
+
+
+        <div class="container-meio">
+            <div>
+                <h1 class="text">Como você que receber seu produto ? </h1>
+        
+                <div class="pai-site">
+                    <div class="pai-bordas">
+                        <div class="borda-retirada">
+                            <img src="./componentes/motocicleta.png" class="image-pagementos">
+                            <h3>Entrega</h3>
+                        </div>
+        
+                        <div class="borda-dinheiro">
+                            <img src="./componentes/retirada.png" class="image-pagementos">
+                            <h3>Retirada</h3>
+        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="container-borda">
+                <h5 class="titulo">Em qual endereço você deseja receber?</h5>
+                <div class="campos">
+        
+                    <!-- <label for="endereco">Endereço:</label> -->
+                    <input placeholder="Endereço" type="text" id="cep">
+        
+                    <!-- <label for="endereco">Endereço:</label> -->
+                    <input placeholder="Endereço" type="text" id="endereco">
+        
+                    <div class="text-cidade-bairro">
+                        <!-- <label for="endereco">Endereço:</label> -->
+                        <input placeholder="Endereço" type="text" id="cidade">
+        
+                        <!-- <label for="endereco">Endereço:</label> -->
+                        <input placeholder="Endereço" type="text" id="bairro">
+                    </div>
+        
+                    <div class="text-numero-complemento">
+        
+                        <!-- <label for="endereco">Endereço:</label> -->
+                        <input placeholder="Endereço" type="text" id="numero">
+        
+                        <!-- <label for="endereco">Endereço:</label> -->
+                        <input placeholder="Endereço" type="text" id="complemento">
+        
+                    </div>
+        
+                </div>
+        
+                <div class="botao">
+                    <button>Salvar Endereço</button>
+                </div>
+        
+            </div>
+        </div>
+        
+
+        
+        
+        </div>
+
+    <div class="btnAjuda">
+        <a href="#" class="btn btn-white btn-animate" id="btnAjuda">Ajuda</a>
+    </div>
+
+    <div class="chatbot-container" id="chatbotContainer">
+        <div class="chatbot-header">
+            <h4>Chat de Ajuda</h4>
+            <button class="close-button" id="closeButton">&times;</button>
+        </div>
+        <div class="chatbot-body" id="chatbotBody"></div>
+        <div class="chatbot-input">
+            <input type="text" id="chatInput" placeholder="Digite sua mensagem">
+            <button id="sendButton">Enviar</button>
+        </div>
+    </div>
+
+    </div>
+
+    <script src="./chatbot.js"></script>
+</body>
+
+</html>
