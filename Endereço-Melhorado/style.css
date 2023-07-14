@@ -1,0 +1,68 @@
+.container-borda {
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-top: -269px;
+    margin-left: 513px;
+    width: 538px;
+    height: 327px;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.campos {
+    margin-top: -85px;
+    width: 145px;
+    margin-left: 146px;
+    height: 21%;
+    
+}
+
+.text-cidade-bairro {
+    height: 100px;
+}
+
+.textn-numero-complemento {
+    height: 100px;
+}
+
+.campos label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.campos input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.botao {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.botao button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#cep{
+
+}
+#endereco{
+
+}
+#cidade{
+
+}
+#numero{
+    border-radius: 10px;
+}
+#complemento{
+
+}
