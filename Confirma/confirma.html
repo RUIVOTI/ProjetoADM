@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./confirma.css" />
+    <link rel="stylesheet" href="./chatbot.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Confirmação</title>
+</head>
+
+<body class="endereço">
+    <div class="pagamento-pai">
+        <div class="entrega-status">
+            <div class="entrega">
+                <img src="./componentes/correto.png" class="entrega-image">
+                <h4>Entrega</h4>
+            </div>
+
+            <div class="forma-pagemento">
+                <img src="./componentes/correto.png" class="entrega-image">
+                <h4>Forma de pagamento</h4>
+            </div>
+
+            <div class="revisao">
+                <h4 class="numero">3</h4>
+                <h4>Revisão</h4>
+            </div>
+
+        </div>
+
+
+        <div class="container-meio">
+            <div class="conteiner-abaixo-do-meio">
+                <h1 class="text">Revise os detalhes do seu pedido
+                </h1>
+
+                <div class="pai-site">
+                    <div class="pai-bordas">
+                        <div class="borda-retirada">
+                            <img src="./componentes/motocicleta.png" class="image-pagementos">
+                            <h4>Recebe em</h4>
+                            <h5 class="text-pix">Rua Paineiras 1300</h5>
+                        </div>
+
+                        <div class="borda-dinheiro">
+                            <img src="./componentes/calendario.png" class="image-pagementos">
+                            <h4>Sexta, 23 de junho 20:00</h4>
+                        </div>
+                        <div class="borda-retirada">
+                            <img src="./componentes/pix.png" class="image-pagementos">
+                            <h4>Forma de pagamento</h4>
+                            <h5 class="text-pix">Vence em 40 minutos</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-borda">
+                <h4 class="titulo">Em qual endereço você deseja receber?</h4>
+                <div class="campos">
+
+                    <input placeholder="32310-400" type="text" id="cep">
+
+                    <input placeholder="Rua Paineiras" type="text" id="endereco">
+
+                    <div class="text-cidade-bairro">
+                        <input placeholder="Contagem" type="text" id="cidade">
+
+                        <input placeholder="Eldorado" type="text" id="bairro">
+                    </div>
+
+                    <div class="text-numero-complemento">
+
+                        <input placeholder="1300" type="text" id="numero">
+
+                        <input placeholder="Instituição" type="text" id="complemento">
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div>
+            <div class="container-itens">
+                <h4 class="titulo-sacola">Sua sacola tem 1 item</h4>
+                    
+                <h4 class="sub-titulo">Produto</h4>
+                    
+                    <div class="container-iten">
+                <h4 class="text-bruschetta">Bruschetta</h4>
+                <h4 class="text-preco"> R$ 20,00 </h4>
+                <img src="./componentes/bruschetta.jfif" class="image-bruschetta" />
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    </div>
+
+    <div class="btnAjuda">
+        <a href="#" class="btn btn-white btn-animate" id="btnAjuda">Ajuda</a>
+    </div>
+
+    <div class="chatbot-container" id="chatbotContainer">
+        <div class="chatbot-header">
+            <h4>Chat de Ajuda</h4>
+            <button class="close-button" id="closeButton">&times;</button>
+        </div>
+        <div class="chatbot-body" id="chatbotBody"></div>
+        <div class="chatbot-input">
+            <input type="text" id="chatInput" placeholder="Digite sua mensagem">
+            <button id="sendButton">Enviar</button>
+        </div>
+    </div>
+
+    </div>
+
+    <script src="./chatbot.js"></script>
+</body>
+
+</html>

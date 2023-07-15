@@ -1,0 +1,142 @@
+.container-borda {
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: #F1F1ED;
+    padding: 50px;
+    height: 170px;
+}
+
+.titulo {
+    text-align: center;
+    font-weight: bold;
+    margin-top: -26px
+}
+.titulo-sacola{
+    text-align: center;
+    font-weight: bold;
+    margin-top: -26px;
+    margin-left: -186px
+}
+.produto{
+    margin-right:50px;
+}
+.sub-titulo{
+    text-align: center;
+    margin-left: 500px;
+}
+
+
+.container-meio {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+.conteiner-abaixo-do-meio{
+    margin-top: -31px;
+}
+
+.campos {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.botao {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.botao button {
+    background-color: #8CE457;
+    color: rgb(0, 0, 0);
+    padding: 11px 101px;
+    border: none;
+    border-radius: 17px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#cep {
+    border-radius: 10px;
+    border: none;
+    border-bottom: 1px solid #161615;
+    margin-bottom: 10px;
+    padding: 7px 0 7px 5px;
+}
+
+#endereco {
+    border-radius: 10px;
+    border: none;
+    border-bottom: 1px solid #161615;
+    margin-bottom: 10px;
+    padding: 7px 0 7px 5px;
+}
+
+#cidade {
+    border-radius: 10px;
+    border: none;
+    border-bottom: 1px solid #161615;
+    margin-bottom: 10px;
+    padding: 7px 0 7px 5px;
+
+}
+
+#bairro{
+    border-radius: 10px;
+    border: none;
+    border-bottom: 1px solid #161615;
+    margin-bottom: 10px;
+    padding: 7px 0 7px 5px;
+}
+
+#numero {
+    border-radius: 10px;
+    border: none;
+    border-bottom: 1px solid #161615;
+    margin-bottom: 10px;
+    padding: 7px 0 7px 5px;
+}   
+
+#complemento {
+    border-radius: 10px;
+    border: none;
+    border-bottom: 1px solid #161615;
+    margin-bottom: 10px;
+    padding: 7px 0 7px 5px;
+}
+
+input {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.image-bruschetta{
+    width: 150px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.text-bruschetta{
+    
+}
+.text-preco{
+    margin-top: 54px;
+    margin-left: 10px;
+}
+
+.container-itens{
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #F1F1ED;
+    padding: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: -50px;
+    margin-left: 750px
+}
+.campos-iten{
+    flex-direction: column;
+
+}
